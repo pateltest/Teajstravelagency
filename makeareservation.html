@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Travel Agency</title>
+    <script src="reservation.js"></script>
+    <link rel="stylesheet" type="text/css" href="pateltravels.css" />
+  </head>
+  <body>
+    <div id="header">
+      <h1>Tejas's Travels</h1>
+      <h2>Big agency deals. Small agency feel!</h2>
+      <img src="patel.jpeg" alt="travel" width="800" height="250" />
+    </div>
+    <hr />
+    <div id="nav">
+      <ul>
+        <a href="makeareservation.html">&#9728; Make a Reservation&#9728; </a>
+        <a href="contact_us.html">&#9728;Contact Us&#9728; </a>
+        <a href="joinmailinglist.html">&#9728; Join Our Mailing List&#9728; </a>
+        <a href="resume.html">&#9728; Resume&#9728; </a>
+        <a href="inext.html">&#9728; Home&#9728; </a>
+      </ul>
+    </div>
+    <br />
+    <br />
+    <div id="maincontent">
+      <form name="reservation">
+        <p>
+          Last Name:<input type="text" name="lname" placeholder="Last Name" />
+        </p>
+        <p>
+          First Name:<input type="text" name="fname" placeholder="First Name" />
+        </p>
+        <h2><p>Arrival City:</p></h2>
+        <p>St Louis ($40) <input type="radio" name="USCity" value="40" /></p>
+        <p>Milwaukee ($20) <input type="radio" name="USCity" value="20" /></p>
+        <p>Detroit ($35) <input type="radio" name="USCity" value="35" /></p>
+
+        <h2><p>Hotel Choices:</p></h2>
+        <p>Economy($50/day) <input type="radio" name="choice" value="50" /></p>
+        <p>Standard($70/day) <input type="radio" name="choice" value="70" /></p>
+        <p>
+          Upscale($120/day) <input type="radio" name="choice" value="120" />
+        </p>
+
+        <h2>Number of travelers:</h2>
+        <select name="customer" id="numberofcustomers">
+          <option value="1">1 person</option>
+          <option value="2">2 people</option>
+          <option value="3">3 people</option>
+          <option value="4">4 people</option>
+          <option value="5">5 people</option>
+          <option value="6">6 people</option>
+        </select>
+
+        <h2>Number of days:</h2>
+        <select name="days" id="numberofdays">
+          <option value="2">2 days</option>
+          <option value="3">3 days</option>
+          <option value="4">4 days</option>
+          <option value="5">5 days</option>
+          <option value="6">6 days</option>
+          <option value="7">7 days</option>
+        </select>
+
+        <h2>Would you like to add Wifi and/or reclining seats?</h2>
+        <p>Wifi ($10)<input type="checkbox" name="chkwifi" /></p>
+        <p>
+          Fully-reclining seat ($20)<input type="checkbox" name="chkseat" />
+        </p>
+
+        <h2>Meal:</h2>
+        <p>None <input type="radio" name="meal" value="0" /></p>
+        <p>Snack ($5) <input type="radio" name="meal" value="5" /></p>
+        <p>Full meal ($10) <input type="radio" name="meal" value="10" /></p>
+
+        <p>Special requests:</p>
+        <p><textarea name="txtarComments" cols="25" rows="10"></textarea></p>
+
+        <p>
+          <input
+            type="button"
+            value="Book My Trip"
+            onclick="readForm()"
+            class="buttoncolor"
+          />
+        </p>
+      </form>
+    </div>
+
+    <br />
+    <hr />
+
+    <div id="footer">
+      <h5>
+        <p>
+          &#9733; &#9733; &#9733; &#9733; &#9733; Address: 2000 W Oakton Ave,
+          Des Plaines IL-60016 | Phone Number:(847)-400-3000 &#9733; &#9733;
+          &#9733; &#9733; &#9733; |Tejas's Travels &copy; | All rights reserved
+          &#174; &#9733; &#9733; &#9733; &#9733; &#9733;
+        </p>
+      </h5>
+    </div>
+  </body>
+</html>

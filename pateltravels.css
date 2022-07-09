@@ -1,0 +1,42 @@
+#header {
+  color: #262656;
+  text-align: center;
+}
+
+body {
+  background-color: #778899;
+}
+
+#nav {
+  background-color: #808686;
+  border: 3px solid #000000;
+  width: 1500px;
+  text-align: center;
+}
+a:hover {
+  background-color: #ffd700;
+}
+
+#maincontent {
+  background-color: #808080;
+  border: 3px solid #000000;
+  width: 500px;
+}
+
+.buttoncolor {
+  font-size: 15px;
+  color: #dada0c;
+  background-color: #ebebf2;
+}
+#footer {
+  background-color: #f4fcfc;
+  border: 3px solid #000000;
+  width: 1500px;
+  font-family: Comic Sans MS;
+  font-size: 13px;
+  font-style: italic;
+  text-align: center;
+}
+#resumestyle {
+  
+}
